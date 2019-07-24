@@ -1,10 +1,7 @@
 Example for the Article on Camel API with SpringBoot
-
-to start up, run:
-	mvn spring-boot:run
 	
 them, do a POST http request to:
-	http://localhost:8080/camel/api/bean 
+	http://localhost:8080/camel/api/student 
 
 with the HEADER: Content-Type: application/json, 
 
