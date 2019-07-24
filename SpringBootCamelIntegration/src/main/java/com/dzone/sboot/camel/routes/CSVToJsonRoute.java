@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class CSVToJsonProcessor extends RouteBuilder {
+public class CSVToJsonRoute extends RouteBuilder {
 
   @Autowired private CSVToJSONProcessor csvToJSONProcessor;
 
